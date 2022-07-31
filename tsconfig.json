@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
     "outDir": "build",
     "target": "ESNext",
     "noEmit": true // only for type checking
