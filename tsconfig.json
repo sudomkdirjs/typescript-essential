@@ -4,7 +4,9 @@
     "checkJs": true,
     "outDir": "build",
     "target": "ESNext",
-    "noEmit": true // only for type checking
+    "noEmit": true, // only for type checking
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": ["src/**/*"]
 }
