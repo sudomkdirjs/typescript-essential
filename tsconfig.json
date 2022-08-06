@@ -4,6 +4,7 @@
     "checkJs": true,
     "outDir": "build",
     "target": "ESNext",
+    "module": "CommonJS",
     "noEmit": true, // only for type checking
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
